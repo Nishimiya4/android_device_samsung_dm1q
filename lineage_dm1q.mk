@@ -23,6 +23,8 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc=$(call normalize-path-list, "dm1qxxx-user 14 UP1A.231005.007 S911BXXS6CXI4 release-keys")
+    BuildDesc=$(call normalize-path-list, "dm1qxxx-user 14 UP1A.231005.007 S911BXXS6CXI4 release-keys") \
+    RISING_CHIPSET="Snapdragon 8 Gen 2" \
+    RISING_MAINTAINER="Shouko Nishimiya"
 
 BUILD_FINGERPRINT := samsung/dm1qxxx/dm1q:14/UP1A.231005.007/S911BXXS6CXI4:user/release-keys
